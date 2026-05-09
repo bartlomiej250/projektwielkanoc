@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="utf-8">
+        <meta name="keywords" content="wielkanoc, drzewka wielkanocne">
+        <meta name="author" content="bartek pieras">
+        <title>Projekt wielkanoc</title>
+        <meta name="email" content="bartlomiej.pietras@zse.krakow.pl">
+        <link rel="icon" href="rysunek.svg">
+        <style>
+
+* {
+    margin: auto;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    text-align: center;
+    margin: auto;
+    background-color: gray;
+    color: white;
+}
+
+header {
+    background-color: lightskyblue;
+    color: white;
+    justify-content: space-between;
+    padding: 20px 40px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 150px;
+}    
+
+
+header h1 {
+        font-size: 40px;
+}
+
+nav{
+    text-align: right;
+    font-size: 24px;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+
+.box{
+    max-width: 800px;
+    height: 500px;
+    border-radius: 30px;
+    background-color: darkgray;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 36px;
+    text-align: left;
+    justify-content: center;
+    padding: 20px 20px 20px 20px;
+}
+
+section {
+    display: flex;
+}
+
+@media (max-width: 768px) {
+    .box {
+        flex-direction: column;
+        height: auto;
+    }
+}
+
+footer{
+    background-color: black;
+    color: white;
+    height: 100px;
+    justify-content: center;
+    padding-top: 40px;
+    margin-top: 150px
+
+}
+
+h2{
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+}
+
+a {
+    display: inline-block;
+    padding: 12px 24px;
+    background: black;
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover {
+    background: orange;
+    transform: scale(1.05);
+}
+</style>
+    </head>
+    <body>
+        <header>
+            <h1 style=text-align:left;>WIELKANOC</h1>
+            <nav>
+                    <a href="index.html">Strona Główna</a>
+                    <a href="konkurs.html">Konkurs</a>
+                    <a href="galeria.html">Galeria</a>
+                    <a href="historia.html">Historia</a>
+                    <a href="kontakt.html">kontakt</a>
+            </nav>
+        </header>
+
+
+            <div class="box">
+                <h2>Kontakt</h2><br>
+                <p>Dane: <br>
+                ul. malinowa123 warszawa <br>
+                telefon: 000 111 222 <br>
+                e-mail: projektwielkanoc@gmail.com <br>
+                pomoc techniczna dostępna od 7:00 do 24:00</p>
+            </div>
+
+
+        <footer>
+            @copyright Bartek Pietras 2026
+        </footer>
+    </body>
+</html>
